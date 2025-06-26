@@ -21,7 +21,7 @@ author: Emad Koohjani
 navbar-links:
   About Me: "aboutme"
   Reports: "k-emad.github.io"
-  CV: 'assets\docs\EmadKoohjani_Resume.pdf'
+  CV: 'assets/docs/EmadKoohjani_Resume.pdf'
   Resources:
       - Vandad Capital: "https://vandadcapital.com"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
