@@ -20,12 +20,12 @@ author: Emad Koohjani
 
 navbar-links:
   About Me: "aboutme"
+  Home: "k-emad.github.io"
+  CV: 'assets\EmadKoohjani_Resume.pdf'
   Resources:
       - Vandad Capital: "https://vandadcapital.com"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
-  Home: "k-emad.github.io"
-  CV: 'docs\EmadKoohjani_Resume.pdf'
 
 ################
 # --- Logo --- #
@@ -140,7 +140,7 @@ keywords: "personal website,homepage,emad,koohjani,عماد,کوهجانی"
 page-col: "#EAF2FD"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#07CDFB"
+hover-col: "##00B987"
 navbar-col: "#05203E"
 navbar-text-col: "#FFFFFF"
 navbar-border-col: "#05203A"
