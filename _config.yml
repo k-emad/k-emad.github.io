@@ -20,8 +20,8 @@ author: Emad Koohjani
 
 navbar-links:
   About Me: "aboutme"
-  Home: "k-emad.github.io"
-  CV: 'assets\EmadKoohjani_Resume.pdf'
+  Reports: "k-emad.github.io"
+  CV: 'assets\docs\EmadKoohjani_Resume.pdf'
   Resources:
       - Vandad Capital: "https://vandadcapital.com"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
