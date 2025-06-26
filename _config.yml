@@ -20,10 +20,12 @@ author: Emad Koohjani
 
 navbar-links:
   About Me: "aboutme"
-  # Resources:
+  Resources:
+      - Vandad Capital: "https://vandadcapital.com"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "k-emad.github.io"
+  Home: "k-emad.github.io"
+  CV: 'docs\EmadKoohjani_Resume.pdf'
 
 ################
 # --- Logo --- #
@@ -135,13 +137,13 @@ keywords: "personal website,homepage,emad,koohjani,عماد,کوهجانی"
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-page-col: "#FFFFFF"
+page-col: "#EAF2FD"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#05203E"
+hover-col: "#07CDFB"
 navbar-col: "#05203E"
 navbar-text-col: "#FFFFFF"
-navbar-border-col: "#05203E"
+navbar-border-col: "#05203A"
 footer-col: "#EAEAEA"
 footer-text-col: "#777777"
 footer-link-col: "#404040"

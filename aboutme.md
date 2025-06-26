@@ -1,16 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: # Why you'd want to go on a date with me
 ---
+I’m Emad Koohjani, an economist with a passion for understanding markets, crafting data-driven solutions, and simplifying complex economic ideas. Currently based in Tehran, I study Economics at Allameh Tabataba’i University, focusing deeply on econometrics, data analysis, and visualization.
 
-My name is Emad Koohjani. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Professionally, I'm a Co-founder at a market research startup and an Economic Researcher at Vandad Capital, where I specialize in market sizing, analyzing risk, and providing insightful financial consulting to businesses navigating economic uncertainty. I also dedicate my time to teaching economics courses, helping others connect theory to real-world applications.
