@@ -10,9 +10,6 @@ thumbnail-img: /assets/docs/energy_sector_challenges/Iran'sEnergySector.EK.v2.jp
 share-img: /assets/docs/energy_sector_challenges/Iran'sEnergySector.EK.v2.jpg
 author: Emad Koohjani
 ---
-
-<!-- ![Iran Energy Sector Cover](/assets/docs/energy_sector_challenges/Iran'sEnergySector.EK.v2.jpg){: .mx-auto.d-block :} -->
-
 This presentation explores the critical and paradoxical state of Iran's energy sector. Despite holding the world's second-largest natural gas reserves and the fourth-largest proven oil reserves, the country is on a precarious path toward becoming a net energy importer. The analysis moves beyond the surface-level numbers of vast resources to uncover a deep-seated structural imbalance between production, consumption, and economic policy. It paints a picture of a nation rich in resources but struggling with inefficiencies that threaten its long-term energy independence and economic stability. The core of the issue lies not in a lack of resources, but in how they are managed and consumed domestically.
 
 
