@@ -2,8 +2,6 @@
 layout: post
 title: How an Energy Giant Is Staring Down a Deficit
 subtitle: An analysis of Iran's paradoxical energy sector challenges
-gh-repo: 
-gh-badge: [Iran economy, energy sector, oil & gas, subsidies]
 tags: [Iran, Energy, Oil, Natural Gas, Subsidies, Environment, Economic Policy]
 comments: true
 mathjax: false
