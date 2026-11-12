@@ -25,7 +25,11 @@ title: 'Tag Index'
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
+                {%- if post.external-url -%}
+                <a href="{{ post.external-url | relative_url }}" target="_blank" rel="noopener">{{- post.title | strip_html -}}</a>
+                {%- else -%}
                 <a href="{{ post.url | relative_url }}">{{- post.title | strip_html -}}</a>
+                {%- endif -%}
                 <div class="entry-date">
                     <time datetime="{{- post.date | date_to_xmlschema -}}">{{- post.date | date: date_format -}}</time>
                 </div>
