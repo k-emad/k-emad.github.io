@@ -23,6 +23,8 @@ navbar-links:
   Reports: "k-emad.github.io"
   CV: 'assets/docs/EmadKoohjani_Resume.pdf'
   Resources:
+      - TeIAS Economics Department: "https://teias.institute/econ-department/"
+      - Abnous PMC: "https://abnouspmc.com/"
       - Vandad Capital: "https://vandadcapital.com"
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
