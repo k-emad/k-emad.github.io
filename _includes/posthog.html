@@ -1,0 +1,55 @@
+{% if site.posthog %}
+<script src="{{ site.posthog.host }}/static/array.js" defer></script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (window.posthog) {
+      window.posthog.init(
+        {{ site.posthog.project_token | jsonify }},
+        {
+          api_host: {{ site.posthog.host | jsonify }},
+          capture_exceptions: {
+            capture_unhandled_errors: true,
+            capture_unhandled_rejections: true,
+            capture_console_errors: false
+          }
+        }
+      );
+
+      document.addEventListener('click', function (event) {
+        var link = event.target.closest('a');
+
+        if (!link) {
+          return;
+        }
+
+        if (link.id === 'nav-search-link') {
+          window.posthog.capture('search_opened');
+          return;
+        }
+
+        if (link.closest('#social-share-section')) {
+          var sharePlatform = Array.from(link.classList).find(function (className) {
+            return className.indexOf('btn-') === 0 && className !== 'btn-social-icon';
+          });
+
+          window.posthog.capture('social_share_initiated', {
+            platform: sharePlatform ? sharePlatform.replace('btn-', '') : 'unknown'
+          });
+          return;
+        }
+
+        if (link.closest('.navbar') && /\/assets\/docs\/[^/]+\.pdf$/.test(link.pathname)) {
+          window.posthog.capture('cv_downloaded', { location: 'navbar' });
+          return;
+        }
+
+        if (link.closest('.footer-links') && (link.title === 'LinkedIn' || link.title === 'GitHub')) {
+          window.posthog.capture('professional_profile_opened', {
+            platform: link.title.toLowerCase()
+          });
+        }
+      });
+    }
+  });
+</script>
+{% endif %}
